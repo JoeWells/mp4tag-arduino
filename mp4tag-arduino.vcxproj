@@ -81,10 +81,12 @@
     <ClInclude Include="Atom.h">
       <FileType>CppCode</FileType>
     </ClInclude>
+    <ClInclude Include="mp4tag.h" />
     <ClInclude Include="Visual Micro\.mp4tag-arduino.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Atom.cpp" />
+    <ClCompile Include="mp4tag.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

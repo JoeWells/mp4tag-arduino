@@ -24,9 +24,15 @@
     <ClInclude Include="Atom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="mp4tag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Atom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mp4tag.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
