@@ -13,6 +13,7 @@ public:
 	int Position();
 	void GetName(char* buffer);
 	int Length();
+	int End();
 	void RewindAtom();
 	Atom GetNextAtom();
 	Atom FindAtom(const char** names, int depth);

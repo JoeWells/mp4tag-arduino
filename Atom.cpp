@@ -45,6 +45,11 @@ int Atom::Length()
 	return (atomLengthByte[0] << 24) | (atomLengthByte[1] << 16) | (atomLengthByte[2] << 8) | atomLengthByte[3];
 }
 
+int Atom::End()
+{
+	return position + Length();
+}
+
 void Atom::RewindAtom()
 {
 	internalPosition = position;
