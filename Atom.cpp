@@ -57,7 +57,7 @@ Atom Atom::GetNextAtom()
 	return nextAtom;
 }
 
-Atom Atom::FindAtom(char** names, int depth)
+Atom Atom::FindAtom(const char** names, int depth)
 {
 	if (depth == 1)
 	{

@@ -15,7 +15,7 @@ public:
 	int Length();
 	void RewindAtom();
 	Atom GetNextAtom();
-	Atom FindAtom(char** names, int depth);
+	Atom FindAtom(const char** names, int depth);
 private:
 	int position;
 	File mp4file;
