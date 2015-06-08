@@ -55,6 +55,11 @@ void Atom::RewindAtom()
 	internalPosition = position;
 }
 
+void Atom::SkipBytes(int bytes)
+{
+	internalPosition += bytes;
+}
+
 Atom Atom::GetNextAtom()
 {
 	Atom nextAtom = Atom(internalPosition, mp4file);
