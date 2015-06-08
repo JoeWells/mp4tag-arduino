@@ -1,8 +1,8 @@
 #ifndef Atom_h
 #define Atom_h
 
-#include "Arduino.h"
-#include "C:\Program Files (x86)\Arduino\libraries\SdFat\SdFat.h"
+#include <Arduino.h>
+#include <SdFat.h>
 extern SdFat SD;
 
 class Atom

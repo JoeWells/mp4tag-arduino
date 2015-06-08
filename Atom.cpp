@@ -1,6 +1,6 @@
 #include "Atom.h"
-#include "Arduino.h"
-#include "SdFat.h"
+#include <Arduino.h>
+#include <SdFat.h>
 extern SdFat SD;
 
 Atom::Atom(int startPos, File file)
